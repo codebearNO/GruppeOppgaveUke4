@@ -1,0 +1,45 @@
+.gameContainer{
+  height: 60vh;
+  width: 50vh;
+  border: 5px solid black;
+  border-radius: 50%;
+  margin: 50px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hotpink;
+}
+.buttonContainer {
+    text-align: center;
+    margin: 10px;
+    width: 40vh;
+}
+.screen {
+    height: 30vh;
+    width: 35vh;
+    background-color: #a6a6a6;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+button {
+  background-color: lightgrey;
+  border: 1px solid black;
+  font-size: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  filter: drop-shadow(0px 5px 4px black);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: gray;
+  filter: drop-shadow(0px 4px 4px rgb(21, 22, 22));
+}
+/* prøver å skape effekten av en fysisk knapp som trykkes inn */
+#eatButton:active {
+  margin-top: 1px;
+}
