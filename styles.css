@@ -50,5 +50,10 @@ button:active {
   transform: translateY(3px);
 }
 
+.statusbar{
+  position: relative;
+  top: 350px;
+  left: 30px;
+}
 
 
